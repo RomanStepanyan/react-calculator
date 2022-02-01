@@ -1,0 +1,74 @@
+.label {
+  display: flex;
+  margin: 20px 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 160px;
+  text-align: center;
+}
+
+.buttonWrapper {
+  text-align: left;
+}
+.button {
+  box-sizing: content-box;
+  height: 25px;
+  width: 160px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 140px;
+  border-radius: 0%;
+  border: solid 1px;
+}
+
+.container {
+  display: flex;
+  width: 600px;
+  border: solid 1px;
+  margin: 20px auto;
+}
+
+.resultWrapper {
+  border: 1px solid;
+  border-color: black;
+}
+
+.errorText {
+  color: red;
+  border: dotted 1px;
+  height: 25px;
+  width: 160px;
+  margin: 20px 40px 20px 40px;
+}
+
+.labelTitle {
+  margin: 5px 20px;
+}
+
+.labelTitleOperation {
+  margin: 5px 25px 5px 20px;
+}
+
+.currentOperation {
+  line-height: 33px;
+  margin: 20px 50px;
+}
+.resultWrapper {
+  margin: 37px 40px 40px 40px;
+  width: 160px;
+  height: 102px;
+}
+.currentResultTitle {
+  margin: 5px;
+}
+
+.currentResult {
+  font-size: 30px;
+  margin: 10px 10px;
+}
